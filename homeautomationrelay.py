@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BOARD)
-GPIIO.setwarnings(False)
+GPIO.setwarnings(False)
 Relay_PIN= 7
 GPIO.setup(Relay_PIN, GPIO.OUT)
 while(1):
